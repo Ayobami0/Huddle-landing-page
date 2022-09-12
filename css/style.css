@@ -2,6 +2,7 @@ body{
     background-color: hsl(257, 40%, 49%);
     /* font-family: Open Sans; */
     font-family: Poppins;
+    padding: 20px 50px;
     background-image: url("../images/bg-mobile.svg");
     background-size: auto;
     background-repeat: no-repeat;
@@ -10,9 +11,9 @@ body{
     padding: 30px 0;
 }
 .container{
+    padding-top: 50px;
     display: flex;
     flex-direction: column;
-    padding: 30px 30px;
     justify-content: space-between;
 }
 button:hover{
@@ -28,7 +29,7 @@ button:hover{
     font-size: 14px;
 }
 #heading{
-    font-size: 23px;
+    font-size: 30px;
     font-weight:600;
     color: white;
 }
@@ -61,6 +62,7 @@ button{
 @media only screen and (min-width: 992px){
     body{
         background-image: url("../images/bg-desktop.svg");
+        padding: 50px 50px;
         background-size: cover;
     }
     .container{
@@ -73,10 +75,9 @@ button{
     }
     #text-container{
         text-align: left;
-        margin: 45px;
+        margin: 45px 0 45px 45px;
     }
     #icon-container{
         justify-content: end;
-        margin-right: 50px;
     }
 }
